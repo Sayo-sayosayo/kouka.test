@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介特設サイト</title>
+    <!-- CSSとの接続 -->
+    <link rel="stylesheet" href="./kouka.css">
+</head>
+
+
+<body>
+
+    <script src="./kouka.js"></script>
+
+    <!-- ヘッダー -->
+    <header>
+
+
+        <h1>
+            <a href="index.html">
+                <img src="./picture/Untitled_logo_1_free-file.jpg" alt="俺天才.......？">
+            </a>
+        </h1>
+
+
+        <!-- ナビゲーション -->
+        <nav id="global_navi">
+            <ul>
+                <li><a href="index.html">HOMEє(･Θ･｡)э</a></li>
+                <li><a href="course.html">関連リンクє(･Θ･｡)э</a></li>
+                <li><a href="gallery.html">作品詳細є(･Θ･｡)э</a></li>
+                <li class="current"><a href="contact.html">お問い合わせє(･Θ･｡)э</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ヘッダー終了 -->
+
+    <!-- ラッパー-->
+
+    <div id="wrapper">
+
+        <h1 class="title">
+            <span>俺</span>
+            <span>の</span>
+            <span>人</span>
+            <span>生</span>
+            <span>で</span>
+            <span>1</span>
+            <span>番</span>
+            <span>好</span>
+            <span>き</span>
+            <span>な</span>
+            <span>漫</span>
+            <span>画</span>
+            <p><span>&nbsp;</span>
+                <span>ウ</span>
+                <span>ィ</span>
+                <span>ッ</span>
+                <span>チ</span>
+                <span>ク</span>
+                <span>ラ</span>
+                <span>フ</span>
+                <span>ト</span>
+                <span>ワ</span>
+                <span>ー</span>
+                <span>ク</span>
+                <span>ス</span>
+            </p>
+        </h1>
+
+        <!-- メイン -->
+        <div id="main">
+
+            <div id="breadcrumb">
+                <!-- ol 箇条書き（順番ありver)  -->
+                <ol>
+                    <li><a href="index.html">HOME</a></li>
+                    <li>お問い合わせ</li>
+                </ol>
+            </div>
+
+            <article>
+                <h1>お問い合わせ</h1>
+                <p class="lead">一体何巻が読みたいんだい？</p>
+                <p>読みたい巻を記入して送ってねん♡</p>
+
+                <p>「<span class="must">※</span>」は必須！</p>
+
+
+                <section>
+                    <h2>連絡先</h2>
+                    <form id="entry">
+
+                        <dl>
+                            <dt>お名前 <span class="must">※</span></dt>
+
+                            <dd><input type="text" name="name" id="name" required></dd>
+
+                            <dt>メールアドレス <span class="must">※</span></dt>
+
+                            <dd><input type="email" name="email" id="email" required></dd>
+
+                            <dt>興味のある巻数</dt>
+
+                            <dd><select name="interest" id="interest">
+
+                                    <option value="邂逅・学園生活編">邂逅・学園生活編(1~2巻)</option>
+                                    <option value="工房の魔女編">工房の魔女編(3~4巻)</option>
+                                    <option value="ウィークエンド編">ウィークエンド編(5~6巻)</option>
+                                    <option value="過去編">過去編(7~11巻)</option>
+                                    <option value="アルシナ編">アルシナ編(12~14巻)</option>
+                                    <option value="最終決戦編">最終決戦編(15~17巻)</option>
+                                    <option value="EXTRA">EXTRA(1~3巻)</option>
+                                </select></dd>
+
+                            <!-- <dt>お問い合わせ種別</dt>
+                            <dd>
+                               
+                                <label><input type="checkbox" name="category" id="category1"
+                                        value="講座申し込み">講座申し込み</label>
+                                <label><input type="checkbox" name="category" id="category2" value="資料請求">資料請求</label>
+                                <label><input type="checkbox" name="category" id="category1"
+                                        value="その他問い合わせ">その他問い合わせ</label> -->
+                            </dd>
+
+                            <!-- <dt>Bloomを知ったきっかけ</dt>
+                            <dd>
+                              
+                                <label><input type="radio" name="questionnaire" id="questionnaire1"
+                                        value="口コミ">口コミ</label>
+                                <label><input type="radio" name="questionnaire" id="questionnaire2"
+                                        value="検索エンジンから">検索エンジンから</label>
+                                <label><input type="radio" name="questionnaire" id="questionnaire3"
+                                        value="その他">その他</label> --> -->
+                            </dd>
+
+                            <dt>ぴよぴよ相談所</dt>
+                            <!-- textarea テキストエリアの作成 -->
+                            <dd><textarea name="detail" id="detail"></textarea></dd>
+
+                        </dl>
+
+                        <p id="submit_button_cover">
+                            <!-- inputの属性　type="submit"　送信用ボタンを作成 -->
+                            <input type="submit" id="submit_button" value="ｿｳｼﾝє(･Θ･｡)э››ﾋﾟﾖﾋﾟﾖ">
+                        </p>
+
+                    </form>
+
+                    <section>
+                        <h3>見出しが入ります。</h3>
+                    </section>
+                </section>
+            </article>
+        </div>
+        <!-- メイン終了 -->
+
+        <!-- サイド -->
+        <aside id="sidebar">
+            <section id="side_banner">
+                <h2>こんなモノを見るならここを見ろ
+                </h2>
+                <ul>
+
+                    <li><a href="https://afternoon.kodansha.co.jp/c/witchcraftworks/" target="_blank">
+                            <img src="./picture/Wcw-manga-logo.gif" alt="W-ch-漫画公式">
+                    <li><a href="https://www.witch-cw-anime.jp/" target="_blank">
+                            <img src="./picture/Wcw-anime-rogo.png" alt="W-ch-アニメ公式">
+                        </a></li>
+                </ul>
+            </section>
+            <section id="side_contact">
+                <h2>あらすじをもっと知りたい..試し読みをしてみたい.....</h2>
+
+                <p>受付時間 9:00～18:00</p>
+                <p><a href="contact.html" class="contact_button">そんなあなたに..</a></p>
+            </section>
+        </aside>
+        <!-- サイド終了 -->
+
+
+    </div>
+    <!-- ラッパー終了 -->
+
+    <!-- フッター -->
+    <footer>
+        <div id="footer">
+            <ul>
+                <li><a href="index.html">HOMEє(･Θ･｡)э</a></li>
+                <li><a href="course.html">作品詳細є(･Θ･｡)э</a></li>
+                <li><a href="gallery.html">好みє(･Θ･｡)э</a></li>
+                <li class="current"><a href="contact.html">お問い合わせє(･Θ･｡)э</a></li>
+            </ul>
+        </div>
+
+        <small>ぴよぴよひよこє(･Θ･｡)эぴよぴよひよこ</small>
+    </footer>
+    <!-- フッター終了 -->
+
+</body>
+
+
+</html>
